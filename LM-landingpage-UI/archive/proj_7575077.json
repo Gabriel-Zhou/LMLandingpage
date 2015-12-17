@@ -1,0 +1,1288 @@
+
+{
+   "title": "Carex pensylvanica Projection 7575077",
+   "SRS": "epsg:4326",
+   "algorithmCode": "ATT_MAXENT",
+   "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+   "createTime": "2015-12-13 23:02:52",
+   "dataFormat": "GTiff",
+   "description": "Predicted habitat for Carex pensylvanica projected onto WC-10min datalayers",
+   "endDate": "2000-01-01 00:00:00",
+   "epsgcode": "4326",
+   "id": "7575077",
+   "isCategorical": "False",
+   "keywords": 
+   {
+      "keyword": "bioclimatic variables",
+      "keyword": "climate",
+      "keyword": "elevation",
+      "keyword": "habitat model",
+      "keyword": "ATT_MAXENT",
+      "keyword": "observed",
+      "keyword": "present",
+      "keyword": "Carex pensylvanica"
+   },
+   "layers": 
+   {
+      "layers": 
+      [
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Mean Temperature of Warmest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7380",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "warmest quarter",
+                  "keyword": "temperature",
+                  "keyword": "mean"
+               },
+               "mapLayername": "bio10-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio10-10min",
+               "mapUnits": "dd",
+               "maxVal": "380.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7380",
+               "minVal": "-97.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio10-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-18 20:41:01",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Mean Temperature of Warmest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO10",
+               "typeDescription": "Mean Temperature of Warmest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "warmest quarter",
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "mean"
+               },
+               "typeTitle": "Mean Temperature of Warmest Quarter",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation of Coldest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7381",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "precipitation",
+                  "keyword": "coldest quarter"
+               },
+               "mapLayername": "bio19-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio19-10min",
+               "mapUnits": "dd",
+               "maxVal": "3985.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7381",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio19-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-18 20:41:01",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation of Coldest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO19",
+               "typeDescription": "Precipitation of Coldest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "precipitation",
+                  "typeKeyword": "coldest quarter"
+               },
+               "typeTitle": "Precipitation of Coldest Quarter",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation of Wettest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7382",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "wettest quarter",
+                  "keyword": "precipitation"
+               },
+               "mapLayername": "bio16-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio16-10min",
+               "mapUnits": "dd",
+               "maxVal": "5043.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7382",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio16-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation of Wettest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO16",
+               "typeDescription": "Precipitation of Wettest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "wettest quarter",
+                  "typeKeyword": "precipitation"
+               },
+               "typeTitle": "Precipitation of Wettest Quarter",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Mean Temperature of Coldest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7383",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "mean",
+                  "keyword": "temperature",
+                  "keyword": "coldest quarter"
+               },
+               "mapLayername": "bio11-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio11-10min",
+               "mapUnits": "dd",
+               "maxVal": "289.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7383",
+               "minVal": "-488.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio11-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Mean Temperature of Coldest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO11",
+               "typeDescription": "Mean Temperature of Coldest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "coldest quarter",
+                  "typeKeyword": "mean"
+               },
+               "typeTitle": "Mean Temperature of Coldest Quarter",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation of Driest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7384",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "precipitation",
+                  "keyword": "driest quarter"
+               },
+               "mapLayername": "bio17-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio17-10min",
+               "mapUnits": "dd",
+               "maxVal": "2159.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7384",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio17-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation of Driest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO17",
+               "typeDescription": "Precipitation of Driest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "precipitation",
+                  "typeKeyword": "driest quarter"
+               },
+               "typeTitle": "Precipitation of Driest Quarter",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation of Wettest Month, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7385",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "precipitation",
+                  "keyword": "wettest month"
+               },
+               "mapLayername": "bio13-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio13-10min",
+               "mapUnits": "dd",
+               "maxVal": "2088.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7385",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio13-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation of Wettest Month, Worldclim 1.4, 10min",
+               "typeCode": "BIO13",
+               "typeDescription": "Precipitation of Wettest Month",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "precipitation",
+                  "typeKeyword": "wettest month"
+               },
+               "typeTitle": "Precipitation of Wettest Month",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Mean Diurnal Range (Mean of monthly (max temp - min temp)), WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7386",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "range",
+                  "keyword": "temperature"
+               },
+               "mapLayername": "bio2-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio2-10min",
+               "mapUnits": "dd",
+               "maxVal": "211.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7386",
+               "minVal": "9.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio2-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Mean Diurnal Range, Worldclim 1.4, 10min",
+               "typeCode": "BIO2",
+               "typeDescription": "Mean Diurnal Range (Mean of monthly (max temp - min temp))",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "range",
+                  "typeKeyword": "temperature"
+               },
+               "typeTitle": "Mean Diurnal Range",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Isothermality (BIO2/BIO7) (* 100), WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7387",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "isothermality",
+                  "keyword": "temperature"
+               },
+               "mapLayername": "bio3-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio3-10min",
+               "mapUnits": "dd",
+               "maxVal": "95.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7387",
+               "minVal": "8.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio3-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Isothermality, Worldclim 1.4, 10min",
+               "typeCode": "BIO3",
+               "typeDescription": "Isothermality (BIO2/BIO7) (* 100)",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "isothermality",
+                  "typeKeyword": "temperature"
+               },
+               "typeTitle": "Isothermality",
+               "user": "kubi",
+               "valUnits": "dimensionless"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Annual Precipitation, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7388",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "annual",
+                  "keyword": "precipitation"
+               },
+               "mapLayername": "bio12-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio12-10min",
+               "mapUnits": "dd",
+               "maxVal": "9916.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7388",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio12-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Annual Precipitation, Worldclim 1.4, 10min",
+               "typeCode": "BIO12",
+               "typeDescription": "Annual Precipitation",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "annual",
+                  "typeKeyword": "precipitation"
+               },
+               "typeTitle": "Annual Precipitation",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Annual Mean Temperature, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7389",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "annual",
+                  "keyword": "temperature",
+                  "keyword": "mean"
+               },
+               "mapLayername": "bio1-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio1-10min",
+               "mapUnits": "dd",
+               "maxVal": "314.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7389",
+               "minVal": "-269.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio1-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Annual Mean Temperature, Worldclim 1.4, 10min",
+               "typeCode": "BIO1",
+               "typeDescription": "Annual Mean Temperature",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "annual",
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "mean"
+               },
+               "typeTitle": "Annual Mean Temperature",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Min Temperature of Coldest Month, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7390",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "min",
+                  "keyword": "coldest month",
+                  "keyword": "temperature"
+               },
+               "mapLayername": "bio6-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio6-10min",
+               "mapUnits": "dd",
+               "maxVal": "258.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7390",
+               "minVal": "-547.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio6-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Min Temperature of Coldest Month, Worldclim 1.4, 10min",
+               "typeCode": "BIO6",
+               "typeDescription": "Min Temperature of Coldest Month",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "coldest month",
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "min"
+               },
+               "typeTitle": "Min Temperature of Coldest Month",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Temperature Annual Range (BIO5-BIO6), WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7391",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "range",
+                  "keyword": "temperature"
+               },
+               "mapLayername": "bio7-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio7-10min",
+               "mapUnits": "dd",
+               "maxVal": "725.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7391",
+               "minVal": "53.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio7-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Temperature Annual Range, Worldclim 1.4, 10min",
+               "typeCode": "BIO7",
+               "typeDescription": "Temperature Annual Range (BIO5-BIO6)",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "range",
+                  "typeKeyword": "temperature"
+               },
+               "typeTitle": "Temperature Annual Range",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Temperature Seasonality (standard deviation *100), WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7392",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "temperature",
+                  "keyword": "seasonality"
+               },
+               "mapLayername": "bio4-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio4-10min",
+               "mapUnits": "dd",
+               "maxVal": "22673.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7392",
+               "minVal": "72.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio4-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Temperature Seasonality, Worldclim 1.4, 10min",
+               "typeCode": "BIO4",
+               "typeDescription": "Temperature Seasonality (standard deviation *100)",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "seasonality"
+               },
+               "typeTitle": "Temperature Seasonality",
+               "user": "kubi",
+               "valUnits": "standardDeviationTimes100"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Max Temperature of Warmest Month, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7393",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "max",
+                  "keyword": "warmest month",
+                  "keyword": "temperature"
+               },
+               "mapLayername": "bio5-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio5-10min",
+               "mapUnits": "dd",
+               "maxVal": "489.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7393",
+               "minVal": "-59.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio5-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Max Temperature of Warmest Month, Worldclim 1.4, 10min",
+               "typeCode": "BIO5",
+               "typeDescription": "Max Temperature of Warmest Month",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "max",
+                  "typeKeyword": "warmest month",
+                  "typeKeyword": "temperature"
+               },
+               "typeTitle": "Max Temperature of Warmest Month",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation of Warmest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7394",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "warmest quarter",
+                  "keyword": "precipitation"
+               },
+               "mapLayername": "bio18-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio18-10min",
+               "mapUnits": "dd",
+               "maxVal": "4001.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7394",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio18-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation of Warmest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO18",
+               "typeDescription": "Precipitation of Warmest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "warmest quarter",
+                  "typeKeyword": "precipitation"
+               },
+               "typeTitle": "Precipitation of Warmest Quarter",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation of Driest Month, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7395",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "precipitation",
+                  "keyword": "driest month"
+               },
+               "mapLayername": "bio14-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio14-10min",
+               "mapUnits": "dd",
+               "maxVal": "652.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7395",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio14-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation of Driest Month, Worldclim 1.4, 10min",
+               "typeCode": "BIO14",
+               "typeDescription": "Precipitation of Driest Month",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "precipitation",
+                  "typeKeyword": "driest month"
+               },
+               "typeTitle": "Precipitation of Driest Month",
+               "user": "kubi",
+               "valUnits": "mm"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Worldclim Elevation (altitude above sea level, from SRTM, http://www2.jpl.nasa.gov/srtm/), WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7396",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "elevation"
+               },
+               "mapLayername": "alt-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=alt-10min",
+               "mapUnits": "dd",
+               "maxVal": "6241.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7396",
+               "minVal": "-353.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "alt-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Elevation, Worldclim 1.4, 10min",
+               "typeCode": "ALT",
+               "typeDescription": "Worldclim Elevation (altitude above sea level, from SRTM, http://www2.jpl.nasa.gov/srtm/)",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "elevation"
+               },
+               "typeTitle": "Elevation",
+               "user": "kubi",
+               "valUnits": "meters"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Mean Temperature of Driest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7397",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "mean",
+                  "keyword": "temperature",
+                  "keyword": "driest quarter"
+               },
+               "mapLayername": "bio9-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio9-10min",
+               "mapUnits": "dd",
+               "maxVal": "364.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7397",
+               "minVal": "-450.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio9-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Mean Temperature of Driest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO9",
+               "typeDescription": "Mean Temperature of Driest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "driest quarter",
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "mean"
+               },
+               "typeTitle": "Mean Temperature of Driest Quarter",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Mean Temperature of Wettest Quarter, WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7398",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "wettest quarter",
+                  "keyword": "temperature",
+                  "keyword": "mean"
+               },
+               "mapLayername": "bio8-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio8-10min",
+               "mapUnits": "dd",
+               "maxVal": "375.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7398",
+               "minVal": "-251.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio8-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Mean Temperature of Wettest Quarter, Worldclim 1.4, 10min",
+               "typeCode": "BIO8",
+               "typeDescription": "Mean Temperature of Wettest Quarter",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "wettest quarter",
+                  "typeKeyword": "temperature",
+                  "typeKeyword": "mean"
+               },
+               "typeTitle": "Mean Temperature of Wettest Quarter",
+               "user": "kubi",
+               "valUnits": "degreesCelsiusTimes10"
+            },
+         
+            {
+               "SRS": "epsg:4326",
+               "bbox": "(-180.0, -60.0, 180.0, 90.0)",
+               "dataFormat": "GTiff",
+               "description": "Precipitation Seasonality (Coefficient of Variation), WorldClim 1.4 elevation and bioclimatic variables computed from interpolated observation data collected between 1950 and 2000 (http://www.worldclim.org/), 5 min resolution",
+               "endDate": "1864-05-09 00:00:00",
+               "epsgcode": "4326",
+               "gdalType": "3",
+               "geoTransform": 
+               {
+                  "geoTransform": "-180.0",
+                  "geoTransform": "0.166666666667",
+                  "geoTransform": "0.0",
+                  "geoTransform": "90.0",
+                  "geoTransform": "0.0",
+                  "geoTransform": "-0.166666666667"
+               },
+               "id": "7399",
+               "isCategorical": "False",
+               "keywords": 
+               {
+                  "keyword": "precipitation",
+                  "keyword": "seasonality"
+               },
+               "mapLayername": "bio15-10min",
+               "mapPrefix": "http://yeti.lifemapper.org/ogc?map=usr_kubi_4326&layers=bio15-10min",
+               "mapUnits": "dd",
+               "maxVal": "261.0",
+               "maxX": "180.0",
+               "maxY": "90.0",
+               "metadataUrl": "http://yeti.lifemapper.org/services/sdm/layers/7399",
+               "minVal": "0.0",
+               "minX": "-180.0",
+               "minY": "-60.0",
+               "modTime": "2015-11-19 16:08:10",
+               "moduleType": "sdm",
+               "name": "bio15-10min",
+               "nodataVal": "-9999.0",
+               "parametersModTime": "2015-11-19 16:08:10",
+               "resolution": "0.16667",
+               "serviceType": "layers",
+               "size": 
+               {
+                  "size": "2160",
+                  "size": "900"
+               },
+               "srs": "GEOGCS['WGS 84',DATUM['WGS_1984',SPHEROID['WGS 84',6378137,298.257223563,AUTHORITY['EPSG','7030']],AUTHORITY['EPSG','6326']],PRIMEM['Greenwich',0],UNIT['degree',0.0174532925199433],AUTHORITY['EPSG','4326']]",
+               "startDate": "1864-03-20 00:00:00",
+               "title": "Precipitation Seasonality, Worldclim 1.4, 10min",
+               "typeCode": "BIO15",
+               "typeDescription": "Precipitation Seasonality (Coefficient of Variation)",
+               "typeKeywords": 
+               {
+                  "typeKeyword": "precipitation",
+                  "typeKeyword": "seasonality"
+               },
+               "typeTitle": "Precipitation Seasonality",
+               "user": "kubi",
+               "valUnits": "coefficientOfVariation"
+            }
+      ]
+   },
+   "mapFilename": "/share/lmserver/data/archive/kubi/000/005/988/711/data_5988711.map",
+   "mapLayername": "prj_7575077",
+   "mapName": "data_5988711",
+   "mapPrefix": "http://yeti.lifemapper.org/ogc?map=data_5988711&layers=prj_7575077",
+   "mapUnits": "dd",
+   "maxX": "180.0",
+   "maxY": "90.0",
+   "metadataUrl": "http://yeti.lifemapper.org/services/sdm/projections/7575077",
+   "minX": "-180.0",
+   "minY": "-60.0",
+   "modTime": "2015-12-16 20:32:54",
+   "moduleType": "sdm",
+   "name": "prj_7575077",
+   "objId": "7575077",
+   "parametersModTime": "2015-12-16 20:32:54",
+   "priority": "1",
+   "resolution": "0.16667",
+   "scenarioCode": "WC-10min",
+   "serviceType": "projections",
+   "speciesName": "Carex pensylvanica",
+   "startDate": "1950-01-01 00:00:00",
+   "status": "1",
+   "statusModTime": "2015-12-16 20:32:54",
+   "title": "Carex pensylvanica Projection 7575077",
+   "user": "kubi"
+}
