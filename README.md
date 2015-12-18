@@ -9,6 +9,11 @@ Lifemapper landing page is designed for users to quick access biodiversity data 
 Here is a general architecture graph for Lifemapper Landing page:
 ![alt tag](https://raw.githubusercontent.com/Gabriel-Zhou/LMLandingpage/master/docs/arclandingpage.png)
 
+Some sample landing pages are as below:
+
+1. Projection Set: hdl.handle.net/11723/d506d6e9-54f8-4c5c-9e95-054a26db24d1
+
+2. Occurrence Set: hdl.handle.net/11723/b476e6d8-6554-4f45-9eab-b77133bcb7cc
 
 #Installation Guide
 
