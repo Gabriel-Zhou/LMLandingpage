@@ -29,15 +29,15 @@ hdl.handle.net/11723/b476e6d8-6554-4f45-9eab-b77133bcb7cc
 4. MongoDB Server V3.0 or higher
 
 ##Building the Source
-1. Check Out Source Codes:
+Check Out Source Codes:
 ```
 git clone https://github.com/Gabriel-Zhou/LMLandingpage.git
 ```
-2. Edit the SpringConfig.properties file found under src/main/resources and set your backend mongoDB uri with username/password if exists.
+Edit the SpringConfig.properties file found under src/main/resources and set your backend mongoDB uri with username/password if exists.
 ```
-vi src/main/resources/SpringConfig.properties
+vi LM-landingpage/src/main/resources/SpringConfig.properties
 ```
-3. Build Komadu Pingback Model
+Build Komadu Pingback Model
 ```
 mvn clean install
 ```
@@ -48,11 +48,21 @@ nohup java -jar ./target/LM-landingpage-0.0.1-SNAPSHOT.jar &
 ```
 
 ##Deploy LMLandingpage frontend layer UI
-
+Configure http server port number -- "PORT"
+```
+vi LM-landingpage-UI/SimpleServer.py
 
 ```
-https://github.com/Gabriel-Zhou/Komadu-Pingback/wiki/Basic-Use-Case:-Revision-of-Dummy-File
+Run python SimpleHttpServer with POST enabled
 ```
+python SimpleServer.py
+```
+
+##Contributing
+This node module is under ISC licence, attributing to Data to Insight Center, Indiana University Bloomington.
+
+##Release History
+1.0.1 Initial release
 
 
 
