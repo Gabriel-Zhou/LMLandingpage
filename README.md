@@ -33,12 +33,10 @@ hdl.handle.net/11723/b476e6d8-6554-4f45-9eab-b77133bcb7cc
 ```
 git clone https://github.com/Gabriel-Zhou/LMLandingpage.git
 ```
-
 2. Edit the SpringConfig.properties file found under src/main/resources and set your backend mongoDB uri with username/password if exists.
 ```
 vi src/main/resources/SpringConfig.properties
 ```
-
 3. Build Komadu Pingback Model
 ```
 mvn clean install
@@ -49,9 +47,9 @@ mvn clean install
 nohup java -jar ./target/LM-landingpage-0.0.1-SNAPSHOT.jar &
 ```
 
-##Executing Basic Use Case
+##Deploy LMLandingpage frontend layer UI
 
-Once you have successfully deployed Komadu Pingback Model on Tomcat, you can execute the basic use case with guide available at:
+
 ```
 https://github.com/Gabriel-Zhou/Komadu-Pingback/wiki/Basic-Use-Case:-Revision-of-Dummy-File
 ```
