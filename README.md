@@ -11,11 +11,11 @@ Here is a general architecture graph for Lifemapper Landing page:
 
 Some sample landing pages are as below:
 
-Projection Set 
+* Projection Set 
 
 hdl.handle.net/11723/d506d6e9-54f8-4c5c-9e95-054a26db24d1
 
-Occurrence Set 
+* Occurrence Set 
 
 hdl.handle.net/11723/b476e6d8-6554-4f45-9eab-b77133bcb7cc
 
@@ -62,7 +62,7 @@ python SimpleServer.py
 This software release is under ISC licence, attributing to Data to Insight Center, Indiana University Bloomington.
 
 ##Release History
-0.0.1 Initial release
+* 0.0.1 Initial release
 
 
 
