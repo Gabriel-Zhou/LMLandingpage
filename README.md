@@ -23,30 +23,31 @@ hdl.handle.net/11723/b476e6d8-6554-4f45-9eab-b77133bcb7cc
 
 ## Software Dependencies
 
-1. Apache Maven 3.0 or higher
-2. JDK 1.6 or higher
-3. Apache XML Beans 2.3.0
-4. Apache Tomcat 6.0.x or higher
-5. Komadu Provenance Collection Tool V1.0 and Deploy as Web Service
-(Available at: https://github.com/Data-to-Insight-Center/komadu)
+1. Apache Maven V3.0 or higher
+2. JDK V1.6 or higher
+3. Python V2.6 or higher with SimpleHttpServer module
+4. MongoDB Server V3.0 or higher
 
 ##Building the Source
-1. Check Out Komadu Pingback Model code from git repository:
+1. Check Out Source Codes:
 ```
-git clone https://github.com/Gabriel-Zhou/Komadu-Pingback.git
+git clone https://github.com/Gabriel-Zhou/LMLandingpage.git
 ```
 
-2. Edit the config.properties file found under src/main/java/edu/indiana/d2i/komadu/pingback/server and set your host name, port number for Tomcat Service and data root path to store all transaction data.
+2. Edit the SpringConfig.properties file found under src/main/resources and set your backend mongoDB uri with username/password if exists.
+```
+vi src/main/resources/SpringConfig.properties
+```
 
 3. Build Komadu Pingback Model
 ```
-mvn clean compile war:war
+mvn clean install
 ```
 
-##Set up Tomcat and deploy Komadu Pingback Web Service
-1. Copy {Komadu-Pingback_checkout_path}/target/Komadu-Pingback-Server-1.0-SNAPSHOT.war to 
-{your_tomcat_home}/webapps/ directory.
-2. Start Tomcat.
+##Deploy LMLandingpage middle layer web services using nohup
+```
+nohup java -jar ./target/LM-landingpage-0.0.1-SNAPSHOT.jar &
+```
 
 ##Executing Basic Use Case
 
