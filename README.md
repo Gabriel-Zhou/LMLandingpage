@@ -59,7 +59,7 @@ python SimpleServer.py
 ```
 
 ##Contributing
-This node module is under ISC licence, attributing to Data to Insight Center, Indiana University Bloomington.
+This software release is under ISC licence, attributing to Data to Insight Center, Indiana University Bloomington.
 
 ##Release History
 0.0.1 Initial release
