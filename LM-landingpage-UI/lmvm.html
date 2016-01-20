@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <title>LM Landing Page Projection Set</title>
+    <title>LM Landing Page VM Object</title>
 </head>
 <body>
 
@@ -16,17 +16,8 @@
 <script type="text/javascript" src="vis/dist/vis.js"></script>
 <link href="vis/dist/vis.css" rel="stylesheet" type="text/css"/>
 <script src="vis/example/googleAnalytics.js"></script>
-<script src="javascript/projection.js"></script>
+<script src="javascript/lmvm.js"></script>
 <script src="javascript/config.js"></script>
-
-<style>
-    #mynetwork {
-        width: 500px;
-        height: 500px;
-        border: 1px solid #444444;
-        background-color: #222222;
-    }
-</style>
 
 <div id="wrapper" align = "center">
 	<div style = "display : inline-block">
@@ -46,12 +37,10 @@
         <div style="width:450px;">
 			<div style="float: left; width: 225px" id="download">
 			</div>
-            <div style="float: right; width: 225px" id="occurrence">
+            <div style="float: right; width: 225px" id="fullurl">
             </div>
 	    </div>
  	    <td style="line-height:20px;" colspan=3>&nbsp;</td>
-        <h2 class="container float" align="center" id="provTitle">Projection Set Provenance</h2>
-        <center><div id="mynetwork"></div></center>
         </div>
     </div>
 </div>

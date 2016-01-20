@@ -1,16 +1,16 @@
 $(document).ready(
 function() {
-    var pid = getParameter('pid');
+    var internalID = getParameter('id');
     $.ajax({
             type:'POST',
-            url: restURL+'/projection/'+pid,
+            url: restURL+'/projection/'+ internalID,
             crossDomain:true,
                 dataType:'json',
                 success: function(data){
                     if(data.success)
                     {
                         var content = "<table class='table table-condensed' style='width: 70%'>";
-                        content += "<tr><td style='width: 20%'><b>ProjectionSet ID</b></td><td>"+data.projset.pid+"</td>"
+                        content += "<tr><td style='width: 20%'><b>ProjectionSet PID</b></td><td>"+data.projset.pid+"</td>"
                         content += "<tr><td style='width: 20%'><b>Display Name</b></td><td>"+data.projset.displayName+"</td>";
                         content += "<tr><td style='width: 20%'><b>Scenario Code</b></td><td>"+data.projset.scenarioCode+"</td>";
                         content += "<tr><td style='width: 20%'><b>Bounding Box</b></td><td>"+data.projset.boundingBox+"</td>";
@@ -18,6 +18,7 @@ function() {
                         content += "<tr><td style='width: 20%'><b>Last Modified</b></td><td>"+data.projset.lastModified+"</td>";
                         content += "<tr><td style='width: 20%'><b>OccrrenceSet PID</b></td><td>"+data.projset.occurrenceSetPID+"</td>";
                         content += "<tr><td style='width: 20%'><b>Experiment ID</b></td><td>"+data.projset.experimentID+"</td>";
+                        content += "<tr><td style='width: 20%'><b>Lifemapper VM PID</b></td><td>"+data.projset.vmpid+"</td>";
                         content += "<tr><td style='width: 20%'><b>Checksum</b></td><td>"+data.projset.checksum+"</td>"
                         content +="</tr></table>";
                         $('#metadata').html(content);

@@ -3,31 +3,40 @@ function() {
     var internalID = getParameter('id');
     $.ajax({
             type:'POST',
-            url: restURL+'/occurrence/'+internalID,
+            url: restURL+'/lmvm/'+internalID,
             crossDomain:true,
                 dataType:'json',
                 success: function(data){
                     if(data.success)
                     {
                         var content = "<table class='table table-condensed' style='width: 70%'>";
-                        content += "<tr><td style='width: 20%'><b>OccurrenceSet PID</b></td><td>"+data.occurset.pid+"</td>"
-                        content += "<tr><td style='width: 20%'><b>Display Name</b></td><td>"+data.occurset.displayName+"</td>";
-                        content += "<tr><td style='width: 20%'><b>Count</b></td><td>"+data.occurset.count+"</td>";
-                        content += "<tr><td style='width: 20%'><b>Last Modified</b></td><td>"+data.occurset.lastModified+"</td>";
-                        content += "<tr><td style='width: 20%'><b>VM PID</b></td><td>"+data.occurset.vmpid+"</td>";
-                        content += "<tr><td style='width: 20%'><b>Checksum</b></td><td>"+data.occurset.checksum+"</td>"
-                        content +="</tr></table>";
+                        content += "<tr><td style='width: 20%'><b>VM PID</b></td><td>"+data.vmobject.pid+"</td>"
+                        content += "<tr><td style='width: 20%'><b>VM Identifier</b></td><td>"+data.vmobject.identifier+"</td>";
+                        content += "<tr><td style='width: 20%'><b>Display Name</b></td><td>"+data.vmobject.name+"</td>";
+                        content += "<tr><td style='width: 20%'><b>Description</b></td><td>"+data.vmobject.description+"</td>";
+                        content += "<tr><td style='width: 20%'><b>Keywords</b></td><td>";
+                        for(var i=0; i<data.vmobject.keywords.length;i++)
+                        {
+                            content += data.vmobject.keywords[i].keyword+"  ";
+                        }
+                        content +="</td></tr></table>";
                         $('#metadata').html(content);
            
-                        var button = "<form action = '"+data.occurset.downloadingURL+"'>";
+                        var button = "<form action = ''>";
                         button += "<button type='submit' class='btn btn-primary'>Download</button>";
                         button += "</form>";
                         $('#download').html(button);
+           
+                        var button2 = "<form action = '"+restURL+'/lmvm/'+internalID+"'>";
+                        button2 += "<button type='submit' class='btn btn-primary'>Metadata</button>";
+                        button2 += "</form>";
+                        $('#fullurl').html(button2);
                     }
                     else
                     {
                         $('#metadata').html('<h1 style="color:red">Sorry! Your Data Object does not exist.</h1>');
                         $('#download').html('');
+                        $('#fullurl').html('');
                     }
                 },
                 error:function(data)
