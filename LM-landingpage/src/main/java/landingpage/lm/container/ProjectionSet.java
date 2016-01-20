@@ -5,44 +5,48 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "ProjectionSet")
 public class ProjectionSet {
-	
+
 	@Id
 	private String id;
-	
+
 	private String pid;
+	private String internalID;
 	private String displayName;
 	private String scenarioCode;
 	private String boundingBox;
 	private String resolution;
 	private String lastModified;
 	private String occurrenceSetPID;
+	private String VMpid;
 	private String experimentID;
 	private String downloadingURL;
 	private String checksum;
 
-	public ProjectionSet()
-	{
+	public ProjectionSet() {
 	}
-	
-	public ProjectionSet(String pid, String displayName, String scenarioCode, String boundingBox, String resolution, String lastModified, String occurrenceSetPID, String experimentID, String downloadingURL, String checksum)
-	{
+
+	public ProjectionSet(String pid, String internalID, String displayName, String scenarioCode, String boundingBox,
+			String resolution, String lastModified, String occurrenceSetPID, String experimentID, String VMpid,
+			String downloadingURL, String checksum) {
 		super();
 		this.pid = pid;
+		this.internalID = internalID;
 		this.displayName = displayName;
 		this.scenarioCode = scenarioCode;
 		this.boundingBox = boundingBox;
 		this.resolution = resolution;
 		this.lastModified = lastModified;
 		this.occurrenceSetPID = occurrenceSetPID;
+		this.VMpid = VMpid;
 		this.experimentID = experimentID;
 		this.downloadingURL = downloadingURL;
 		this.checksum = checksum;
 	}
-	
+
 	public String getId() {
 		return id;
 	}
-	
+
 	public String getPid() {
 		return pid;
 	}
@@ -53,6 +57,14 @@ public class ProjectionSet {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	public String getInternalID() {
+		return internalID;
+	}
+
+	public void setInternalID(String internalID) {
+		this.internalID = internalID;
 	}
 
 	public String getDisplayName() {
@@ -101,6 +113,14 @@ public class ProjectionSet {
 
 	public void setOccurrenceSetPID(String occurrenceSetPID) {
 		this.occurrenceSetPID = occurrenceSetPID;
+	}
+
+	public String getVMpid() {
+		return VMpid;
+	}
+
+	public void setVMpid(String vMpid) {
+		VMpid = vMpid;
 	}
 
 	public String getExperimentID() {

@@ -10,21 +10,25 @@ public class OccurrenceSet {
 		private String id;
 		
 		private String pid;
+		private String internalID;
 		private String displayName;
 		private int count;
 		private String lastModified;
 		private String downloadingURL;
+		private String VMpid;
 		private String checksum;
 		
-		public OccurrenceSet(String pid, String displayName, int count, String lastModified, String downloadingURL, String checksum)
+		public OccurrenceSet(String pid, String internalID, String displayName, int count, String lastModified, String downloadingURL, String VMpid, String checksum)
 		{
 			super();
 			this.pid = pid;
+			this.internalID = internalID;
 			this.displayName = displayName;
 			this.count = count;
 			this.lastModified = lastModified;
 			this.downloadingURL = downloadingURL;
 			this.checksum = checksum;
+			this.VMpid = VMpid;
 		}
 		
 		public OccurrenceSet()
@@ -46,6 +50,14 @@ public class OccurrenceSet {
 
 		public void setId(String id) {
 			this.id = id;
+		}
+
+		public String getInternalID() {
+			return internalID;
+		}
+
+		public void setInternalID(String internalID) {
+			this.internalID = internalID;
 		}
 
 		public String getDisplayName() {
@@ -78,6 +90,14 @@ public class OccurrenceSet {
 
 		public void setDownloadingURL(String downloadingURL) {
 			this.downloadingURL = downloadingURL;
+		}
+		
+		public String getVMpid() {
+			return VMpid;
+		}
+
+		public void setVMpid(String vMpid) {
+			VMpid = vMpid;
 		}
 
 		public String getChecksum() {
