@@ -62,7 +62,8 @@ python SimpleServer.py
 This software release is under ISC licence, attributing to Data to Insight Center, Indiana University Bloomington.
 
 ##Release History
-* 0.0.1 Initial release
+* 0.1.0 2nd release
+* 0.0.1 Initial release 
 
 
 
