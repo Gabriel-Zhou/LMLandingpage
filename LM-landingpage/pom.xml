@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>sprint.rda.pragma</groupId>
   <artifactId>LM-landingpage</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>LM-landingpage</name>
   <parent>
         <groupId>org.springframework.boot</groupId>
