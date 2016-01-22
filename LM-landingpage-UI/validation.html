@@ -33,23 +33,26 @@
             <h3 align = "left">Data Validation Service</h3>
             <br>
             <div class="col-xs-8" align="left">
-                <div class="input-group">
-                <span class="input-group-addon" id="basic-addon1">Projection PID</span>
-                <input type="text" class="form-control" placeholder="11723/" aria-describedby="basic-addon1" class="100px" id="projectionPID">
-                </div>
-                <br><br>
-                <div class="input-group">
-                <span class="input-group-addon" id="basic-addon1">Validation VM PID</span>
-                <input type="text" class="form-control" placeholder="11723/" aria-describedby="basic-addon1" class="100px" id="VMPID">
-                </div>
-                <br><br>
                 <form id="validate" Method="POST">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Projection PID</span>
+                        <input type="text" class="form-control" placeholder="11723/" aria-describedby="basic-addon1" class="100px" id="projectionPID">
+                            </div>
+                    <br><br>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Validation VM PID</span>
+                        <input type="text" class="form-control" placeholder="11723/" aria-describedby="basic-addon1" class="100px" id="VMPID">
+                    </div>
+                    <br><br>
                     <input type="submit" value="Submit" name="submit" class="btn btn-primary">
                 </form>
-                <br><br>
+                <br>
+                <div id="resultboolean">
+                </div>
+                <br>
                 <div class="form-group">
                     <label for="comment">Validation Result:</label>
-                    <textarea class="form-control" rows="10" id="result"></textarea>
+                    <textarea readonly class="form-control" rows="10" id="result" ></textarea>
                 </div>
             </div>
             <td style="line-height:20px;" colspan=3>&nbsp;</td>

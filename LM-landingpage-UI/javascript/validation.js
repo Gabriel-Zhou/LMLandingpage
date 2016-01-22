@@ -1,51 +1,33 @@
 $(document).ready(
 function() {
-    var internalID = getParameter('id');
+$('#validate').submit(function(e) {
+    e.preventDefault();
+    var projPID = $("#projectionPID").val();
+    var vmPID = $("#VMPID").val();
     $.ajax({
-            type:'POST',
-            url: restURL+'/lmvm/'+internalID,
+            type:'GET',
+            url: restURL+'/validation?projPID='+projPID+'&vmPID='+vmPID,
             crossDomain:true,
-                dataType:'json',
-                success: function(data){
+            dataType:'json',
+            success: function(data){
                     if(data.success)
                     {
-                        var content = "<table class='table table-condensed' style='width: 70%'>";
-                        content += "<tr><td style='width: 20%'><b>VM PID</b></td><td>"+data.vmobject.pid+"</td>"
-                        content += "<tr><td style='width: 20%'><b>VM Identifier</b></td><td>"+data.vmobject.identifier+"</td>";
-                        content += "<tr><td style='width: 20%'><b>Display Name</b></td><td>"+data.vmobject.name+"</td>";
-                        content += "<tr><td style='width: 20%'><b>Description</b></td><td>"+data.vmobject.description+"</td>";
-                        content += "<tr><td style='width: 20%'><b>Keywords</b></td><td>";
-                        for(var i=0; i<data.vmobject.keywords.length;i++)
-                        {
-                            content += data.vmobject.keywords[i].keyword+"  ";
-                        }
-                        content +="</td></tr></table>";
-                        $('#metadata').html(content);
-           
-                        var button = "<form action = ''>";
-                        button += "<button type='submit' class='btn btn-primary'>Download</button>";
-                        button += "</form>";
-                        $('#download').html(button);
-           
-                        var button2 = "<form action = '"+restURL+'/lmvm/'+internalID+"'>";
-                        button2 += "<button type='submit' class='btn btn-primary'>Metadata</button>";
-                        button2 += "</form>";
-                        $('#fullurl').html(button2);
+                        $("#resultboolean").html("<h3 style='color:green'> VALID !</h3>");
+                        $("#result").html(data.message);
                     }
                     else
                     {
-                        $('#metadata').html('<h1 style="color:red">Sorry! Your Data Object does not exist.</h1>');
-                        $('#download').html('');
-                        $('#fullurl').html('');
+                        $("#resultboolean").html("<h3 style='color:red'> CANNOT BE VALIDED !</h3>");
+                        $("#result").html(data.message);
                     }
                 },
                 error:function(data)
                 {
-                    alert(data.message);
+                    alert("Unexpected internal error. Please try again.");
                 }
     });
-}
-);
+  })
+});
 
 function getParameter(theParameter) {
     var params = window.location.search.substr(1).split('&');
